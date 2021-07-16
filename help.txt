@@ -1,0 +1,25 @@
+bots
+    done   
+    automate  - cronjob
+    maybe go for datetime field - done
+
+elasticsearch
+    python script to index from db to elasticsearch - cronjob, 
+    add data filtered by date - done
+
+ML topic extraction script
+    integrate with PSQL DB 
+    generate topics by date - 
+    generate topics by source once a week - 
+    
+Django UI
+    Search bar , results page - kinda googlish 
+    filter news by source date and shit
+
+STACK -  Django or golang, golang, PostgreSQL, elasticsearch    
+
+ADDITIONAL FEATURES
+
+1. Add Telegram Bot support
+2. Add tweets
+3. 
