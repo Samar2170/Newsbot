@@ -1,0 +1,22 @@
+
+<div class="searchBox">
+    <form action="{% url 'search' %}" method="POST">
+        {% csrf_token %}    
+        <input class="searchInput"type="text" name="" placeholder="Search">
+        <button class="searchButton" >
+            <i class="material-icons">
+                Search
+            </i>
+        </button>
+    </form>
+</div>
+{% if resp %} 
+
+
+<h1>{{r.hits._index}}</h1>
+<h1>{{r.hits._source.title}}</h1>
+
+
+
+
+{% endif %}
